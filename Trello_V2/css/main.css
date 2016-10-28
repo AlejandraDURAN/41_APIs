@@ -1,0 +1,45 @@
+.letra{
+  font-family: 'Lobster';
+}
+
+body{
+	background-color: dodgerblue;
+}
+
+footer{
+	background-color: black;
+    position:fixed;
+    height:50px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+}
+
+.white{
+ color: white;
+}
+
+.mr-2{
+  margin-right: 2%;
+ }
+
+.tupper{
+float: left;
+   width: 15%;
+  background-color: white;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 15px;
+}
+
+.scroll {
+overflow-x: scroll;
+overflow-y: scroll;
+height: 580px;
+white-space: nowrap;
+}
+
+.block,.btn-success {
+  display: block;
+}
