@@ -58,7 +58,7 @@ function agregartarjeta (){
       btntarjeta.addEventListener("click",agtarjeta);
     	function agtarjeta (){
         if (conttarjeta.value === ""|| conttarjeta.value == null){
-          alert ("Falta que ingreses el nombre de tarjeta");
+          alert ("Falta que ingreses datos a la tarjeta");
         } else{
           btntarjeta.parentNode.removeChild(btntarjeta);
         }
@@ -80,10 +80,12 @@ function soltar (ev){
 }
 
 function terminaArrastrar (ev) {
- ev.target.style.backgroundColor = "#5882FA";
+ ev.target.style.backgroundColor = "#CEECF5";
 }
 function dejarArrastrar (ev) {
- 
+ ev.target.style.borderStyle = "double";
+ ev.target.style.backgroundColor = "#F2F2F2";
+
 
 }
 }

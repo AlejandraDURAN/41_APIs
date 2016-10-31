@@ -42,4 +42,5 @@ white-space: nowrap;
 
 .block,.btn-success {
   display: block;
+  border-style: dsa
 }
